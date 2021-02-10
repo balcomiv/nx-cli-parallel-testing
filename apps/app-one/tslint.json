@@ -1,0 +1,20 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "nxCliParallelTesting",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "nx-cli-parallel-testing",
+      "kebab-case"
+    ]
+  },
+  "linterOptions": {
+    "exclude": ["!**/*"]
+  }
+}
